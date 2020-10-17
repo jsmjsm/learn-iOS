@@ -1,11 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "filledStar.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "filledStar.png",
+      "filename" : "filledStar@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

@@ -1,11 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "highlightedStar.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "highlightedStar.png",
+      "filename" : "highlightedStar@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
