@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600AE2782567DF65001BC81D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600AE2772567DF65001BC81D /* UIColor+Ext.swift */; };
+		600AE27C2567E052001BC81D /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600AE27B2567E052001BC81D /* UINavigationController+Ext.swift */; };
+		600AE2802567E4B1001BC81D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600AE27F2567E4B1001BC81D /* MapKit.framework */; };
+		600AE2832567E8C3001BC81D /* RestaurantDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600AE2822567E8C3001BC81D /* RestaurantDetailSeparatorCell.swift */; };
+		600AE2862567E9CE001BC81D /* RestaurantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600AE2852567E9CE001BC81D /* RestaurantDetailMapCell.swift */; };
+		602603702567A78700B6C31A /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6026036F2567A78700B6C31A /* Restaurant.swift */; };
+		602603882567B0C500B6C31A /* Rubik-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6026037A2567B0C400B6C31A /* Rubik-SemiBoldItalic.ttf */; };
+		602603892567B0C500B6C31A /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6026037B2567B0C400B6C31A /* Rubik-LightItalic.ttf */; };
+		6026038A2567B0C500B6C31A /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6026037C2567B0C400B6C31A /* Rubik-Medium.ttf */; };
+		6026038B2567B0C500B6C31A /* Rubik-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6026037D2567B0C400B6C31A /* Rubik-ExtraBoldItalic.ttf */; };
+		6026038C2567B0C500B6C31A /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6026037E2567B0C400B6C31A /* Rubik-Italic.ttf */; };
+		6026038D2567B0C500B6C31A /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6026037F2567B0C400B6C31A /* Rubik-MediumItalic.ttf */; };
+		6026038E2567B0C500B6C31A /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603802567B0C500B6C31A /* Rubik-Light.ttf */; };
+		6026038F2567B0C500B6C31A /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603812567B0C500B6C31A /* Rubik-Black.ttf */; };
+		602603902567B0C500B6C31A /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603822567B0C500B6C31A /* Rubik-BoldItalic.ttf */; };
+		602603912567B0C500B6C31A /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603832567B0C500B6C31A /* Rubik-Bold.ttf */; };
+		602603922567B0C500B6C31A /* Rubik-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603842567B0C500B6C31A /* Rubik-ExtraBold.ttf */; };
+		602603932567B0C500B6C31A /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603852567B0C500B6C31A /* Rubik-BlackItalic.ttf */; };
+		602603942567B0C500B6C31A /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603862567B0C500B6C31A /* Rubik-Regular.ttf */; };
+		602603952567B0C500B6C31A /* Rubik-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 602603872567B0C500B6C31A /* Rubik-SemiBold.ttf */; };
+		602603982567B59C00B6C31A /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602603972567B59C00B6C31A /* RestaurantDetailHeaderView.swift */; };
+		609F8BA12567C4B1009DD25D /* RestaurantDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F8BA02567C4B1009DD25D /* RestaurantDetailIconTextCell.swift */; };
+		609F8BA42567CADA009DD25D /* RestaurantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609F8BA32567CADA009DD25D /* RestaurantDetailTextCell.swift */; };
+		60BC48D4255A6BD2005C00F4 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC48D3255A6BD2005C00F4 /* RestaurantDetailViewController.swift */; };
+		60F9A7812545C38E0009BDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F9A7802545C38E0009BDDB /* AppDelegate.swift */; };
+		60F9A7882545C38E0009BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F9A7862545C38E0009BDDB /* Main.storyboard */; };
+		60F9A78A2545C3900009BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F9A7892545C3900009BDDB /* Assets.xcassets */; };
+		60F9A78D2545C3900009BDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F9A78B2545C3900009BDDB /* LaunchScreen.storyboard */; };
+		60F9A7982545CABE0009BDDB /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F9A7972545CABE0009BDDB /* RestaurantTableViewController.swift */; };
+		60F9A79B2545CAF90009BDDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F9A79A2545CAF90009BDDB /* SceneDelegate.swift */; };
+		60F9A79E2545CEC60009BDDB /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F9A79D2545CEC60009BDDB /* RestaurantTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600AE2772567DF65001BC81D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		600AE27B2567E052001BC81D /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		600AE27F2567E4B1001BC81D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		600AE2822567E8C3001BC81D /* RestaurantDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		600AE2852567E9CE001BC81D /* RestaurantDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailMapCell.swift; sourceTree = "<group>"; };
+		6026036F2567A78700B6C31A /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		6026037A2567B0C400B6C31A /* Rubik-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6026037B2567B0C400B6C31A /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		6026037C2567B0C400B6C31A /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		6026037D2567B0C400B6C31A /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6026037E2567B0C400B6C31A /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		6026037F2567B0C400B6C31A /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		602603802567B0C500B6C31A /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		602603812567B0C500B6C31A /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		602603822567B0C500B6C31A /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		602603832567B0C500B6C31A /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		602603842567B0C500B6C31A /* Rubik-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBold.ttf"; sourceTree = "<group>"; };
+		602603852567B0C500B6C31A /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		602603862567B0C500B6C31A /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		602603872567B0C500B6C31A /* Rubik-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-SemiBold.ttf"; sourceTree = "<group>"; };
+		602603972567B59C00B6C31A /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
+		609F8BA02567C4B1009DD25D /* RestaurantDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailIconTextCell.swift; sourceTree = "<group>"; };
+		609F8BA32567CADA009DD25D /* RestaurantDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTextCell.swift; sourceTree = "<group>"; };
+		60BC48D3255A6BD2005C00F4 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		60F9A77D2545C38E0009BDDB /* learn-iOS-FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learn-iOS-FoodPin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F9A7802545C38E0009BDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60F9A7872545C38E0009BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60F9A7892545C3900009BDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60F9A78C2545C3900009BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60F9A78E2545C3900009BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60F9A7972545CABE0009BDDB /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		60F9A79A2545CAF90009BDDB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60F9A79D2545CEC60009BDDB /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60F9A77A2545C38E0009BDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600AE2802567E4B1001BC81D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600AE2762567DF3E001BC81D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				600AE2772567DF65001BC81D /* UIColor+Ext.swift */,
+				600AE27B2567E052001BC81D /* UINavigationController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		600AE27E2567E4B1001BC81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600AE27F2567E4B1001BC81D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		602603722567AE3D00B6C31A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				60F9A7972545CABE0009BDDB /* RestaurantTableViewController.swift */,
+				60BC48D3255A6BD2005C00F4 /* RestaurantDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		602603732567AE6800B6C31A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6026036F2567A78700B6C31A /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		602603742567AE7400B6C31A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				609F8BA32567CADA009DD25D /* RestaurantDetailTextCell.swift */,
+				609F8BA02567C4B1009DD25D /* RestaurantDetailIconTextCell.swift */,
+				602603972567B59C00B6C31A /* RestaurantDetailHeaderView.swift */,
+				60F9A79D2545CEC60009BDDB /* RestaurantTableViewCell.swift */,
+				600AE2822567E8C3001BC81D /* RestaurantDetailSeparatorCell.swift */,
+				600AE2852567E9CE001BC81D /* RestaurantDetailMapCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		602603752567AE9200B6C31A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				60F9A7862545C38E0009BDDB /* Main.storyboard */,
+				60F9A78B2545C3900009BDDB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		602603782567B07300B6C31A /* Resurces */ = {
+			isa = PBXGroup;
+			children = (
+				602603792567B07F00B6C31A /* Fonts */,
+			);
+			path = Resurces;
+			sourceTree = "<group>";
+		};
+		602603792567B07F00B6C31A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				602603812567B0C500B6C31A /* Rubik-Black.ttf */,
+				602603852567B0C500B6C31A /* Rubik-BlackItalic.ttf */,
+				602603832567B0C500B6C31A /* Rubik-Bold.ttf */,
+				602603822567B0C500B6C31A /* Rubik-BoldItalic.ttf */,
+				602603842567B0C500B6C31A /* Rubik-ExtraBold.ttf */,
+				6026037D2567B0C400B6C31A /* Rubik-ExtraBoldItalic.ttf */,
+				6026037E2567B0C400B6C31A /* Rubik-Italic.ttf */,
+				602603802567B0C500B6C31A /* Rubik-Light.ttf */,
+				6026037B2567B0C400B6C31A /* Rubik-LightItalic.ttf */,
+				6026037C2567B0C400B6C31A /* Rubik-Medium.ttf */,
+				6026037F2567B0C400B6C31A /* Rubik-MediumItalic.ttf */,
+				602603862567B0C500B6C31A /* Rubik-Regular.ttf */,
+				602603872567B0C500B6C31A /* Rubik-SemiBold.ttf */,
+				6026037A2567B0C400B6C31A /* Rubik-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		60F9A7742545C38E0009BDDB = {
+			isa = PBXGroup;
+			children = (
+				60F9A77F2545C38E0009BDDB /* learn-iOS-FoodPin */,
+				60F9A77E2545C38E0009BDDB /* Products */,
+				600AE27E2567E4B1001BC81D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60F9A77E2545C38E0009BDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60F9A77D2545C38E0009BDDB /* learn-iOS-FoodPin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60F9A77F2545C38E0009BDDB /* learn-iOS-FoodPin */ = {
+			isa = PBXGroup;
+			children = (
+				600AE2762567DF3E001BC81D /* Extensions */,
+				602603782567B07300B6C31A /* Resurces */,
+				602603752567AE9200B6C31A /* Storyboard */,
+				602603742567AE7400B6C31A /* View */,
+				602603732567AE6800B6C31A /* Model */,
+				602603722567AE3D00B6C31A /* Controller */,
+				60F9A7802545C38E0009BDDB /* AppDelegate.swift */,
+				60F9A79A2545CAF90009BDDB /* SceneDelegate.swift */,
+				60F9A7892545C3900009BDDB /* Assets.xcassets */,
+				60F9A78E2545C3900009BDDB /* Info.plist */,
+			);
+			path = "learn-iOS-FoodPin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60F9A77C2545C38E0009BDDB /* learn-iOS-FoodPin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F9A7912545C3900009BDDB /* Build configuration list for PBXNativeTarget "learn-iOS-FoodPin" */;
+			buildPhases = (
+				60F9A7792545C38E0009BDDB /* Sources */,
+				60F9A77A2545C38E0009BDDB /* Frameworks */,
+				60F9A77B2545C38E0009BDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "learn-iOS-FoodPin";
+			productName = "learn-iOS-FoodPin";
+			productReference = 60F9A77D2545C38E0009BDDB /* learn-iOS-FoodPin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60F9A7752545C38E0009BDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					60F9A77C2545C38E0009BDDB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 60F9A7782545C38E0009BDDB /* Build configuration list for PBXProject "learn-iOS-FoodPin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60F9A7742545C38E0009BDDB;
+			productRefGroup = 60F9A77E2545C38E0009BDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60F9A77C2545C38E0009BDDB /* learn-iOS-FoodPin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60F9A77B2545C38E0009BDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602603912567B0C500B6C31A /* Rubik-Bold.ttf in Resources */,
+				60F9A78D2545C3900009BDDB /* LaunchScreen.storyboard in Resources */,
+				602603902567B0C500B6C31A /* Rubik-BoldItalic.ttf in Resources */,
+				6026038D2567B0C500B6C31A /* Rubik-MediumItalic.ttf in Resources */,
+				602603892567B0C500B6C31A /* Rubik-LightItalic.ttf in Resources */,
+				602603932567B0C500B6C31A /* Rubik-BlackItalic.ttf in Resources */,
+				602603952567B0C500B6C31A /* Rubik-SemiBold.ttf in Resources */,
+				6026038F2567B0C500B6C31A /* Rubik-Black.ttf in Resources */,
+				60F9A78A2545C3900009BDDB /* Assets.xcassets in Resources */,
+				6026038A2567B0C500B6C31A /* Rubik-Medium.ttf in Resources */,
+				602603942567B0C500B6C31A /* Rubik-Regular.ttf in Resources */,
+				6026038C2567B0C500B6C31A /* Rubik-Italic.ttf in Resources */,
+				60F9A7882545C38E0009BDDB /* Main.storyboard in Resources */,
+				6026038E2567B0C500B6C31A /* Rubik-Light.ttf in Resources */,
+				6026038B2567B0C500B6C31A /* Rubik-ExtraBoldItalic.ttf in Resources */,
+				602603922567B0C500B6C31A /* Rubik-ExtraBold.ttf in Resources */,
+				602603882567B0C500B6C31A /* Rubik-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60F9A7792545C38E0009BDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600AE27C2567E052001BC81D /* UINavigationController+Ext.swift in Sources */,
+				60F9A79E2545CEC60009BDDB /* RestaurantTableViewCell.swift in Sources */,
+				609F8BA42567CADA009DD25D /* RestaurantDetailTextCell.swift in Sources */,
+				60F9A7982545CABE0009BDDB /* RestaurantTableViewController.swift in Sources */,
+				602603702567A78700B6C31A /* Restaurant.swift in Sources */,
+				609F8BA12567C4B1009DD25D /* RestaurantDetailIconTextCell.swift in Sources */,
+				602603982567B59C00B6C31A /* RestaurantDetailHeaderView.swift in Sources */,
+				600AE2832567E8C3001BC81D /* RestaurantDetailSeparatorCell.swift in Sources */,
+				600AE2862567E9CE001BC81D /* RestaurantDetailMapCell.swift in Sources */,
+				60BC48D4255A6BD2005C00F4 /* RestaurantDetailViewController.swift in Sources */,
+				600AE2782567DF65001BC81D /* UIColor+Ext.swift in Sources */,
+				60F9A7812545C38E0009BDDB /* AppDelegate.swift in Sources */,
+				60F9A79B2545CAF90009BDDB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60F9A7862545C38E0009BDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60F9A7872545C38E0009BDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60F9A78B2545C3900009BDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60F9A78C2545C3900009BDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60F9A78F2545C3900009BDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60F9A7902545C3900009BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60F9A7922545C3900009BDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6ZS899VCH;
+				INFOPLIST_FILE = "learn-iOS-FoodPin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.googo.learn-iOS-FoodPin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60F9A7932545C3900009BDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6ZS899VCH;
+				INFOPLIST_FILE = "learn-iOS-FoodPin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.googo.learn-iOS-FoodPin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60F9A7782545C38E0009BDDB /* Build configuration list for PBXProject "learn-iOS-FoodPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F9A78F2545C3900009BDDB /* Debug */,
+				60F9A7902545C3900009BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F9A7912545C3900009BDDB /* Build configuration list for PBXNativeTarget "learn-iOS-FoodPin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F9A7922545C3900009BDDB /* Debug */,
+				60F9A7932545C3900009BDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60F9A7752545C38E0009BDDB /* Project object */;
+}
